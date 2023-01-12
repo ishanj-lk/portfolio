@@ -1,0 +1,296 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+}
+
+.navP {
+    position: relative;
+    display: flex;
+}
+
+.nav h1 {
+    padding-left: 15vw;
+    padding-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+
+.nav p {
+    padding-right: 15px;
+    margin-top: 3vh;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.navActive {
+    margin-left: 40vw;
+}
+
+.nav p:hover {
+    color: red;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.row {
+    margin: auto;
+    width: 97%;
+    left: 3%;
+}
+
+.header {
+    padding-top: 10vh;
+}
+
+.header1 {
+    order: 1;
+}
+
+.header2 {
+    order: 2;
+}
+
+.mainNameContainer {
+    padding-top: 27vh;
+    padding-left: 15vw;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 42px;
+}
+
+.headerNameBtnDiv {
+    margin-top: 3vh;
+}
+
+.instaBtn {
+    padding-top: 0vh;
+}
+
+.mainImg {
+    display: block;
+    position: relative;
+    width: 36vw;
+    height: auto;
+    margin: auto;
+}
+
+.aboutMe {
+    padding-top: 6vh;
+}
+
+.aboutMe h3 {
+    margin-left: 15vw;
+    padding-bottom: 6vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.myInfoDiv {
+    margin-top: 3vh;
+    padding-right: 10vw;
+}
+
+.aboutDescription {
+    padding-left: 15vw;
+    padding-top: 15vh;
+    padding-right: 5vw;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.aboutSlideMainDiv {
+    background-color: white;
+}
+
+.aboutSlideDiv {
+    background-color: #2C3333;
+}
+
+.aboutMeImages {
+    display: block;
+    max-width: 15vw;
+    margin: auto;
+}
+
+.myProjects {
+    padding-top: 9vh;
+}
+
+.myProjects h3 {
+    margin-left: 15vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-bottom: 6vh;
+}
+
+.myProjects img {
+    max-width: 15vw;
+    display: block;
+    margin: auto;
+}
+
+.projectTypesDiv {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.myProjectsH5 {
+    position: relative;
+    width: 90%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.myProjectsDiv p {
+    line-height: 0.5;
+}
+
+.contactMe {
+    margin-top: 6vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.contactMe h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 12vh;
+}
+
+.contactIcon1 {
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    color: #0E3EDA;
+    cursor: pointer;
+}
+
+.contactIcon1:hover {
+    background-color: #0E3EDA;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contactIcon2 {
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    color: #B33030;
+    cursor: pointer;
+}
+
+.contactIcon2:hover {
+    background-color: #B33030;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contactIcon3 {
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.contactIcon3:hover {
+    background-color: grey;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contactMe h5 {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 12vh;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2C3333;
+    color: white;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 6vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer img {
+    display: block;
+    margin: auto;
+    max-width: 9vw;
+    height: auto;
+    padding-top: 3vh;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 6vh;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    z-index: 5;
+    font-size: 12px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: #D67D3E;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
+
+#myBtn:hover {
+    color: #f58634;
+    background-color: #8ac4d0;
+}
